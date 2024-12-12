@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Calls in Javascript</title>
+    <script defer src="script.js"></script>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="row">API calls with JS Fetch and XHR</div>
+    <div class="row">
+         <div> <button id="fetchBtn" >Fetch Data with fetch()</button> </div>
+       
+         <div> <button id="xhrBtn">Fetch Data with XHR</button> </div>
+    
+    </div>
+   
+    <div class="row" id="respContent">
+        <div class="d-iflex"> <span id="respId"></span>
+            <div id="respTitle">
+    
+            </div> </div>
+        
+        <div id="respBody">
+            
+        </div>
+        <div> <button id="update" class="d-none"> Edit</button></div>
+
+    </div>
+   
+    <form id="formInp"  >
+        <div >
+            <label class="editModeClass d-none" id="editMode">Editing for #<span id="respId2"></span> </label>
+        <label for="inpTitle">Title</label>
+        <input id="inpTitle" type="text"> </div>
+        <div ><label for="inpBody">Body</label>
+        <input id="inpBody" type="text"> </div>
+        <div > <button type="submit" id="submitBtn">Submit</button></div>
+        <div > <button type="button" class="d-none" id="cancelBtn">Cancel</button></div>
+    </form>
+</body>
+</html>

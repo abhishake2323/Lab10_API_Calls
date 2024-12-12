@@ -1,0 +1,85 @@
+body{
+    color: white;
+    background-color: #3c3c3c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button{
+    background-color: rgb(214, 247, 180);
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+}
+
+button:hover{
+    background-color: beige;
+     
+}
+button:active{
+    background-color: rgb(188, 188, 95);
+}
+
+input{
+    margin: 0px 5px;
+    border-radius: 5px;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    border: 1px solid rgb(106, 106, 106);
+}
+input:focus{
+    box-shadow:0px 0px 5px 2px rgb(149, 195, 22);
+    outline: 0;
+}
+.row:not(#respContent){
+     
+   background-color: rgb(84, 105, 105);
+    padding: 1rem 2rem ;
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#respContent{
+    
+    padding: 1rem;
+    background-color: rgb(151, 105, 56);
+}
+
+  #respTitle{flex:3; 
+    width: 100%;
+    padding: 1rem;
+    background-color:#5c4934;;
+}
+ #respBody{
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: rgb(145, 61, 60);
+}
+#respId{
+    width: 100%;
+    flex: 0.1;  
+    padding: 1rem;
+    background-color:#422a0b;
+}
+
+.d-iflex{
+    width: 100%;
+    display: inline-flex;
+   
+}
+
+form{
+    display: inline-flex;
+    padding: 1rem;
+    gap:3rem;
+}
+
+.d-none{
+    display: none;
+}
+
+.b-shadow{
+
+    box-shadow:0px 0px 20px 6px yellow;
+}
